@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Churn Prediction</title>
+</head>
+<body>
+    <h2>Customer Churn Prediction</h2>
+    <form action="/predict" method="post">
+        Credit Score: <input name="CreditScore"><br>
+        Age: <input name="Age"><br>
+        Tenure: <input name="Tenure"><br>
+        Balance: <input name="Balance"><br>
+        Num Of Products: <input name="NumOfProducts"><br>
+        Has Credit Card (0/1): <input name="HasCrCard"><br>
+        Is Active Member (0/1): <input name="IsActiveMember"><br>
+        Estimated Salary: <input name="EstimatedSalary"><br>
+        Geography Germany (0/1): <input name="Geography_Germany"><br>
+        Geography Spain (0/1): <input name="Geography_Spain"><br>
+        Gender Male (0/1): <input name="Gender_Male"><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
